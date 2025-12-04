@@ -1,0 +1,17 @@
+.boxes {
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black
+}
+
+.box1,
+.box2,
+.box3,
+.box4  {
+
+     border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    width: 100px;
+}
