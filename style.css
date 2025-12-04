@@ -1,17 +1,182 @@
-.boxes {
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif, "roboto";
+margin: 0;
+}
+
+.top-page-thing {
+
+background-color: #1F2937;
+color: white;
+}
+
+.header  {
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+
+a {
+justify-content: ed;
+text-decoration: none;
+color: white;
+}
+
+.links {
+display: flex;
+gap: 20px;
+}
+
+.header-logo {
+font-weight: 900;
+}
+
+
+
+.first-bar {
+padding: 60px;
+display: flex;
+gap: 40px;
+}
+
+.first-bar-title {
+font-weight: 900;
+font-size: 48px;
+}
+
+.first-bar-text {
+font-size: 18px;
+}
+
+.image-placehold {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 450px;
+height: 200px;
+flex-shrink: 0;
+background-color: #777777;
+}
+
+.first-sign-up {
+    border: none;
+    margin-top:5px;
     color: white;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black
+    
+}
+
+button {
+background-color: #3882F6;
+border-radius: 10%;
+padding: 4px;
+width: 100px;
+font-weight: bold;
+}
+
+
+
+.second-bar {
+background-color: aliceblue;
+padding-bottom: 20px;
+}
+
+.second-bar-title {
+font-size: 25px;   
+font-weight: 900;
+padding: 30px;
+display: flex;
+justify-content: center;
 }
 
 .box1,
 .box2,
 .box3,
-.box4  {
+.box4 {
 
-     border-style: solid;
-    border-width: 1px;
-    border-color: blue;
-    width: 100px;
+width: 100vh;
+border-style: solid;
+border-width: 2px;
+border-color: blue;
+border-radius: 10%;
+width: 125px;
+height: 125px;
+}
+.boxes,
+.second-bar-texts {
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+.second-bar-texts {
+text-align: center;
+
+/* gap: 33px; */
+font-size: 13px;
+width: 600px;
+padding-left: 160px;
+}
+
+.third-bar {
+background-color: #E5E7EB;
+display: flex;
+flex-direction: column;
+padding: 22px;
+}
+
+.quote {
+width: 600px;
+font-size: 23px;
+margin-bottom: -20px;
+flex-direction: inline-flex;
+align-self: center;
+}
+
+.author {
+font-weight: 900;
+text-align: center;
+padding-left: 375px ;
+}
+
+.fourth-bar {
+display: flex;
+color: white;
+background-color: #3882F6;
+width: 600px;
+height: 30px;
+margin: 55px;
+border-radius: 2%;
+padding: 60px;
+justify-self: center;
+}
+
+.fourth-bar-title {
+font-weight: bold ;
+}
+
+.fourth-bar-text{
+font-size: 13px;
+margin: -1px;
+margin-top: 2px;
+}
+
+.second-signup {
+color: white;
+height: 30px;
+display: flex;
+justify-content: center;
+border: white;
+border-width: 2px;
+border-style: solid;
+font-size: 14px;
+margin-left:100px;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 105px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
