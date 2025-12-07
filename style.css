@@ -1,6 +1,7 @@
 body {
 font-family: Verdana, Geneva, Tahoma, sans-serif, "roboto";
 margin: 0;
+
 }
 
 .top-page-thing {
@@ -87,10 +88,7 @@ display: flex;
 justify-content: center;
 }
 
-.box1,
-.box2,
-.box3,
-.box4 {
+.box {
 
 width: 100vh;
 border-style: solid;
@@ -108,12 +106,13 @@ gap: 30px;
 }
 
 .second-bar-texts {
+display: flex;
+justify-self: center;
 text-align: center;
-
-/* gap: 33px; */
 font-size: 13px;
 width: 600px;
 padding-left: 160px;
+margin-right: 160px;
 }
 
 .third-bar {
@@ -179,4 +178,6 @@ margin-left:100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
 }
